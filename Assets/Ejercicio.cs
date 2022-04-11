@@ -38,7 +38,23 @@ public class Ejercicio : MonoBehaviour
         {
             Debug.Log("Error. Aún estás en ciclo básico");
         }
-        else if (orientacion != "T" || orientacion != "M" || orientacion != "G" || orientacion != "H" || orientacion != "D" )
+        else if (orientacion != "T")
+        {
+            Debug.Log("Solo puede ingresar T, D, G, M o H");
+        }
+        else if (orientacion != "M")
+        {
+            Debug.Log("Solo puede ingresar T, D, G, M o H");
+        }
+        else if (orientacion != "D")
+        {
+            Debug.Log("Solo puede ingresar T, D, G, M o H");
+        }
+        else if (orientacion != "G")
+        {
+            Debug.Log("Solo puede ingresar T, D, G, M o H");
+        }
+        else if (orientacion != "H")
         {
             Debug.Log("Solo puede ingresar T, D, G, M o H");
         }
